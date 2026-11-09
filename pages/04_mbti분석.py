@@ -14,7 +14,7 @@ st.title("🌍 국가별 MBTI 비율 분석")
 st.write("국가를 선택하면 해당 국가의 16가지 MBTI 유형별 비율을 확인할 수 있습니다.")
 
 # 상위 폴더의 CSV 파일 경로
-DATA_FILE = Path(__file__).parent.parent / "countriesMBTI_16types(1).csv"
+DATA_FILE = Path(__file__).parent.parent / "countriesMBTI_16types.csv"
 
 # 데이터 불러오기
 @st.cache_data
