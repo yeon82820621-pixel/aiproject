@@ -4,3 +4,5 @@ folium
 streamlit-folium
 pandas>=2.0.0
 plotly>=5.20.0
+numpy
+scikit-learn
